@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^imgs/$ /deny.txt
+RewriteRule ^css/$ /deny.txt
+RewriteRule ^js/$ /deny.txt
+RewriteRule ^font/$ /deny.txt
+RewriteRule ^i/flow/register$ /register.php
+RewriteRule ^i/flow/login$ /login.php
+RewriteRule ^i/flow/ar-([a-zA-Z0-9_-]+)$ /account-register.php?reg=$1
+ErrorDocument 404 /404.php
+

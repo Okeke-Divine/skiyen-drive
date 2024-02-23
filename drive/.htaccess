@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteRule ^$ /403.php
+RewriteRule ^functions/$ /403.php
+
+RewriteRule ^folder$ main.php?into=root
+
+RewriteRule ^folder~([a-zA-Z0-9_-]+)$ main.php?into=$1
+
+RewriteRule ^item~([a-zA-Z0-9_-]+)$ main.php?item=$1

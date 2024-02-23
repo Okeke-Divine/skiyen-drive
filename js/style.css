@@ -1,0 +1,11 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+* { margin: 0; padding: 0; }
+body { font: 14px Georgia, serif; }
+#page-wrap { width: 960px; margin: 60px auto; }
+
+h2 { font: 26px Georgia, Serif; margin: 30px 0 10px 0; }
